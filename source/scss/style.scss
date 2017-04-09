@@ -41,6 +41,9 @@ p {
     background-color: lighten($primary, 55%);
     height: 40px;
     width: 160px;
+    font-size: $font-base-size * 1.5;
+    border: none;
+    border-radius: 5px;
 
     &:focus {
       color: $secondary;
@@ -67,7 +70,7 @@ input[type=button] {
   box-shadow: none;
   height: 30px;
   padding: 0 15px;
-  border-radius: 3px;
+  border-radius: 5px;
 
   &:hover {
     transform: translateY(-1px);
@@ -83,7 +86,7 @@ input.danger {
   box-shadow: none;
   height: 30px;
   padding: 0 15px;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 input[type=text] {
@@ -92,7 +95,9 @@ input[type=text] {
   height: 30px;
   text-shadow: none;
   border: none;
+  border-radius: 5px;
   padding-left: 5px;
+  font-size: $font-base-size * 1.5;
 
   &:focus {
     outline-color: $primary;
@@ -106,8 +111,10 @@ input[type=password] {
   box-shadow: none;
   height: 30px;
   text-shadow: none;
-  border: none;
   padding-left: 5px;
+  font-size: $font-base-size * 1.5;
+  border: none;
+  border-radius: 5px;
 
   &:focus {
     outline-color: $primary;
@@ -131,11 +138,13 @@ figure {
   overflow: hidden;
   max-width: 650px;
   text-align: center;
+  border-radius: 5px;
 }
 
 img {
   min-height: 100%;
   max-width: 100%;
+  border-radius: 5px;
 }
 
 figcaption {
@@ -148,6 +157,8 @@ figcaption {
 th {
   background-color: $primary;
   color: $tertiary;
+  border: none;
+  border-radius: 5px;
 }
 
 th,
@@ -166,6 +177,8 @@ input[type=checkbox] + label {
   background-color: lighten($primary, 30%);
   padding-left: 5px;
   padding-right: 5px;
+  border: none;
+  border-radius: 5px;
 }
 
 input[type=radio] + label {
@@ -173,4 +186,6 @@ input[type=radio] + label {
   background-color: lighten($primary, 30%);
   padding-left: 5px;
   padding-right: 5px;
+  border: none;
+  border-radius: 5px;
 }
